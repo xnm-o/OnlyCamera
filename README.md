@@ -1,8 +1,8 @@
-# OnlyCam
+# OnlyCamera
 
 一个用 PySide6 / Qt 写的轻量级摄像头悬浮窗：**纯画面、无外框、置顶、可拖动、可缩放、可旋转**，适合把摄像头画面常驻在屏幕一角做演示、直播辅助或日常监控。
 
-渲染交给 QtMultimedia 后端（GPU），不在 Python 层逐帧搬运图像数据，30fps 长时间运行占用极低，"播一天不卡"。
+渲染交给 QtMultimedia 后端（GPU），不在 Python 层逐帧搬运图像数据，30fps 长时间运行占用极低。
 
 ![platform](https://img.shields.io/badge/platform-Windows-blue)
 ![python](https://img.shields.io/badge/python-3.10+-blue)
@@ -18,10 +18,6 @@
 - **零黑边填充**：任意缩放比例下画面始终填满窗口、严格覆盖，不留黑边。
 - **低占用长跑**：GPU 渲染 + 原生格式（NV12/YUYV）优先，避开需解码的 JPEG。
 - **高 DPI 友好**：缩放显示下画面依然清晰。
-
-## 截图
-
-> TODO: 添加运行截图（可选）。
 
 ## 环境要求
 
@@ -114,7 +110,7 @@ detected 2 camera device(s):
 
 ## 许可证
 
-[MIT License](LICENSE) © 2026 YinShengJie
+[MIT License](LICENSE) © 2026 
 
 ## 贡献
 
