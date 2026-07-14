@@ -1,0 +1,5 @@
+# 默认：所有文本文件在仓库中统一为 LF 换行符
+* text=auto eol=lf
+
+# Windows 批处理脚本必须是 CRLF
+*.bat text eol=crlf
